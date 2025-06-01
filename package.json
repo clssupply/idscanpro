@@ -1,0 +1,49 @@
+{
+  "name": "id-scan-pro",
+  "version": "1.0.0",
+  "description": "Modern React application for scanning PDF417 barcodes on driver's licenses and ID cards",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clssupply/idscanpro.git"
+  },
+  "keywords": [
+    "pdf417",
+    "barcode",
+    "scanner",
+    "driver-license",
+    "id-card",
+    "react",
+    "typescript",
+    "vite"
+  ],
+  "author": "clssupply",
+  "license": "MIT",
+  "homepage": "https://github.com/clssupply/idscanpro",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.8",
+    "@zxing/library": "^0.21.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
